@@ -19,5 +19,6 @@ namespace Muresan_Denisa_Lab8.Data
         public DbSet<Muresan_Denisa_Lab8.Models.Publisher> Publisher { get; set; }
 
         public DbSet<Muresan_Denisa_Lab8.Models.BookCategory> BookCategory { get; set; }
+        public IEnumerable<object> Category { get; internal set; }
     }
 }
